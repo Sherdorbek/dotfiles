@@ -1,0 +1,9 @@
+general.live_config_reload =true
+[window]
+opacity = 0.95
+padding = {x = 10,y = 10}
+[font]
+size = 13
+builtin_box_drawing = true
+[colors.primary]
+background = "#121926"

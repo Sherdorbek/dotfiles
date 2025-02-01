@@ -1,0 +1,50 @@
+# # Set the width of the wofi window (e.g., 50% of the screen)
+# width=50%
+#
+# # Set the number of lines displayed in the menu
+# lines=10
+#
+# # Set the number of columns (optional, for grid mode)
+# columns=1
+#
+# # Set the prompt text
+# prompt=Run:
+#
+# # Set the GTK theme (optional, e.g., Adwaita)
+# theme=Adwaita
+#
+# # Set the font (optional)
+# font=sans 12
+#
+# # Enable fuzzy matching (optional)
+# matching=fuzzy
+#
+# # Set the terminal emulator to use (optional)
+# terminal=foot
+#
+# Wofi configuration file
+# Located at ~/.config/wofi/config
+
+# General settings
+width=600
+height=300
+show=drun
+prompt=Search...
+
+# Appearance
+insensitive=true
+allow_images=true
+image_size=32
+sort_order=default
+
+# Behavior
+mode=drun
+matching=multi-contains
+insensitive=true
+
+# Cache settings
+cache_file=/home/user/.cache/wofi/cache
+
+# Additional behaviors
+term=foot
+
