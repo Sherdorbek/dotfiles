@@ -67,6 +67,7 @@ window#waybar.hidden {
 
 #custom-power {
   margin-right: 6px;
+
 }
 
 #custom-logo {
@@ -83,7 +84,7 @@ window#waybar.hidden {
 }
 
 #battery {
-  background-color: rgb(34, 87, 122);
+  background-color: #1E6091;
   color : #fff;
 }
 
@@ -119,7 +120,8 @@ window#waybar.hidden {
 }
 
 #custom-power {
-  background-color: #80ED99;
+  background-color: #184E77;
+  color : #fff;
 }
 
 

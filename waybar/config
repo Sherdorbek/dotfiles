@@ -134,6 +134,6 @@
     "custom/power": {
         "format": "󰤆",
         "tooltip": false,
-        "on-click": "~/.config/sway/wifi-menu.sh &"
+        "on-click": "~/.config/wofi/power-menu.sh &"
     }
 }

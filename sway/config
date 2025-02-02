@@ -6,7 +6,15 @@
 
 font pango: Monospace  10
 # seat seat0 xcursor_theme Breeze 32
+# for_window * border pixel 0
+default_border pixel 3
+# client.focused           #023e7d #023e7d #ffffff #023e7d
+client.unfocused         #001233 #001233 #57cc99 #001233
+client.focused_inactive  #001233 #001233 #001233 #001233
 
+
+# gaps inner 5
+# gaps outer 1
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
@@ -168,6 +176,8 @@ exec nm-applet
 
     # Move focus to the parent container
     bindsym $mod+a focus parent
+
+    bindsym XF86PowerOff exec ~/.config/wofi/power-menu.sh
 #
 # Scratchpad:
 #
